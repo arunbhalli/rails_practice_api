@@ -6,12 +6,10 @@ default: &default
 
 development:
   <<: *default
-  username: postgres
   database: rails_practice_api_development
 
 test:
   <<: *default
-  username: postgres
   database: rails_practice_api_test
 
 production:
