@@ -3,6 +3,6 @@ Rails.application.routes.draw do
     get 'articles/index'
   end
   namespace :api do
-    resources :articles, only: [:index, :show, :body]
+    resources :articles, only: %i[index show create]
   end
 end
