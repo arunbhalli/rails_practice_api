@@ -1,5 +1,6 @@
 FactoryBot.define do
   factory :article do
-    title { "God is great" }
+    title { 'MyString' }
+    body { 'MyText' }
   end
 end
